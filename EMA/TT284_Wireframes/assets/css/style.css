@@ -1,0 +1,241 @@
+    body{
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+   
+.container{
+	position: relative;
+	margin: 0 auto;
+}
+
+.header{
+	position: relative;
+	margin: 0 auto;
+	margin: 4px;
+	clear: both;
+}
+
+.content{
+	overflow: auto;
+	margin: 4px auto;
+}
+
+.active{
+	background-color: black;
+}
+
+#add_news_form form p{
+	font-size: 0.8em;
+}
+
+#add_news_title{
+	text-align: left;
+	text-decoration: underline;
+	font-size: 1.2em;
+	padding: 15px;
+}
+
+#add_news{
+	text-align: left;
+}
+
+#Log_in_form{
+	margin: 160px auto;
+	padding: 5px 6px;
+	text-align: center;
+}
+
+#email_form{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#email_form form p{
+	font-size: 0.8em;
+	display: inline-block;
+	float: left;
+    clear: left;
+    width: 100%;
+    text-align: left;
+}
+
+#emailcontent{
+	display: inline-block;
+	width: 100%;
+}
+
+#email_title{
+	text-align: left;
+	font-size: 1.1em;
+	text-decoration: underline;
+}
+
+.other_event{
+	float: right;
+	margin: 3px;
+	padding: 2px;
+}
+
+.news_item{
+	float: right;
+	border: 1px solid;
+	margin: 5px;
+	padding: 2px;
+}
+
+.dates{
+	font-size: 0.7em;
+	font-style: italic;
+}
+
+
+.navigation{
+	clear: both;
+	border-top: solid 1px;
+}
+
+    
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navigation li {
+    float: left;
+}
+
+ul.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {display: inline;}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {color: green;}
+
+ul.navigation li.right {float: right;}
+
+#member_table tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+#member_table{
+	padding: 1px;
+	margin: 5px;
+}
+
+td{
+	padding: 2px;
+		border: 1px solid;
+}
+
+#member_list_title{
+	position: relative;
+	left: 20px;
+	text-decoration: underline; 
+	width: 200px;
+}
+
+#social_events_form form p{
+	font-size: 0.8em;
+}
+
+#events_title{
+	text-align: left;
+	text-decoration: underline;
+	font-size: 1.2em;
+	padding: 15px;
+}
+
+#member_title{
+	text-align: left;
+	padding: 20px;
+	text-decoration: underline;
+}
+
+#new_member_form form p{
+	font-size: 0.8em;
+}
+
+#new_member{
+	text-align: left;
+}
+
+#new_event{
+	text-align: left;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+h1{
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+#description{
+	font-weight: normal;
+	margin: 10px;
+	left: 2px;
+	position: relative;
+}
+
+#heading{
+	padding: 10px;
+	margin: 0;
+}
+
+#race_results tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+#race_results{
+	padding: 2px;
+	margin: 9px;
+}
+
+#race_results td{
+	padding: 6px;
+	margin: 9px;
+	width: 150px;
+	font-size: 0.8em;
+}
+
+.results{
+	text-decoration: none;
+	color: #1569C7;
+}
+
+.results:hover{
+	text-decoration: underline;
+}
+
+.footer{
+	position: relative;
+	width: 945px;
+	bottom: 4px;
+	left: 4px;
+	margin-top: 8px;
+	font-size: 0.8em;
+	padding: 5px 0 5px 5px; 
+}
